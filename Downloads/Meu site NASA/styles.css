@@ -1,0 +1,116 @@
+/* Estilizando o botão */
+button {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #d83933;
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  /* Adiciona um pouco de espaçamento ao redor dos botões */
+}
+
+button:hover {
+  background-color: #ed6618;
+}
+
+body {
+  color: #fff;
+  background-color: hsl(0, 0%, 2%);
+  font-family: 'fantasy';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  padding: 30px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  /* Espaçamento horizontal entre os itens da lista */
+}
+
+header a {
+  text-decoration: none;
+  background-color: #67f66c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #000;
+  /* Ajusta a cor do texto para melhor contraste */
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid green;
+}
+
+img {
+  width: 50%;
+  padding: auto;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+.button-container {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  /* Espaçamento horizontal entre os botões */
+  margin: 80px 0;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 50px;
+}
+
+input,
+textarea {
+  font-size: 16px;
+  /* Tamanho da fonte do texto e do placeholder */
+  padding: 10px;
+  /* Espaçamento interno */
+  width: 50%;
+  max-width: 50px;
+  /* Largura máxima do campo */
+  box-sizing: border-box;
+  /* Inclui padding e border no cálculo da largura */
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  /* Tamanho da fonte do placeholder */
+  color: #999;
+  /* Cor do placeholder */
+}
+
+h1,
+h4 {
+  text-align: center;
+  padding: 10px;
+}
