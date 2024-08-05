@@ -113,4 +113,33 @@ h1,
 h4 {
   text-align: center;
   padding: 10px;
+  text-size-adjust: 30px;
+}
+
+h4 {
+  text-align: justify;
+  padding: 10px;
+}
+
+/* Tela de no máximo 768px (tablets e dispositivos menores) */
+@media (max-width: 768px) {
+  header nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  footer {
+    position: relative;
+  }
+}
+
+/* Tela de no máximo 480px (smartphones) */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 0 1em;
+  }
 }
